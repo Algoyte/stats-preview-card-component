@@ -1,0 +1,90 @@
+@font-face {
+    font-family: interbold;
+    src: url(./assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: interreg;
+    src: url(./assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: lex;
+    src: url(./assets/fonts/LexendDeca-Regular.ttf);
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 50px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.title {
+    font-family: interbold;
+    font-size: 30px;
+    width: 375px;
+}
+
+img {
+    height: 350px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+b {
+    color: hsl(277, 64%, 61%);
+}
+
+.para {
+    font-family: lex;
+    color: hsla(0, 0%, 100%, 0.6);
+    width: 270px;
+    word-spacing: 1px;
+    margin-top: 30px;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.bubbles {
+    font-family: interbold;
+    display: flex;
+    margin-top: 50px;
+}
+
+.one {
+    margin-bottom: 5px;
+}
+
+.two {
+    margin-bottom: 5px;
+}
+
+.three {
+    margin-bottom: 5px;
+}
+
+.under {
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: lex;
+    letter-spacing: 1px;
+}
+
+.set {
+    margin-right: 60px;
+}
+
+.set-one {
+    margin-right: 20px;
+}
